@@ -10,7 +10,7 @@ const MovieCard = ({ result }) => {
                     src={`https://image.tmdb.org/t/p/original/${result.backdrop_path || result.poste_path}`}
                     width={500}
                     height={300}
-                    className="sm:rounded-t-lg group-hover:opacity-5 transition-opacity duration-300"
+                    className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300"
                 >
                 </Image>
                 <div className="p-2">

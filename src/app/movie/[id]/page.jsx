@@ -5,7 +5,6 @@ const MoviePage = async ({ params }) => {
     const res = await fetch(`https://api.themoviedb.org/3/movie/${movieId}?api_key=${process.env.API_KEY}&language=en-US&page=1`)
     const data = await res.json();
     const movie = data.results;
-    console.log(movie, "Result")
 
     return (
         <div className="w-full">
