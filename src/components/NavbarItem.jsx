@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link'
-import { usePathname, useSearchParams } from 'next/navigation'
+import { useSearchParams } from 'next/navigation'
 import React from 'react'
 
 const NavbarItem = ({ title, param }) => {
@@ -19,3 +19,5 @@ const NavbarItem = ({ title, param }) => {
 }
 
 export default NavbarItem
+
+
